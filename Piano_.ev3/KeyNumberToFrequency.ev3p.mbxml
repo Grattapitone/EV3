@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_031_Sound">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description>Converts key number (0-15) to a frequency in Hz</Description>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="lowestFrequency" DisplayName="lowestFrequency" Direction="Input" Identification="Identification_525_Note.png" DataType="Single" DefaultValue="440" />
+        <ParamInfo Name="keyNumber" DisplayName="keyNumber" Direction="Input" Identification="Identification_042_ArrayInNumeric.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="Frequency" DisplayName="Frequency" Direction="Output" Identification="Identification_058_Hz.png" DataType="Single" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
